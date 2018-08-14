@@ -17,7 +17,7 @@ class Ideone
      char a[]=d.toCharArray();
      for(int i=0;i<n;i++)
      {
-        System.out.printf("%c ",a[i]);
+        System.out.printf("%c",a[i]);
      }
      
 
