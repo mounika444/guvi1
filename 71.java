@@ -9,17 +9,17 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		 String a;
-    Scanner s=new Scanner(System.in);
-    a=s.next();
-    String w=new StringBuffer().reverse().toString();
-    if(a.equalsIgnoreCase(w)){
-        System.out.println("no");
-    }
- else{
-        System.out.println("yes");
- }
+	 String str, rev = "";
+      Scanner sc = new Scanner(System.in);
+      str = sc.nextLine();
+      int length = str.length();
+      for ( int i = length - 1; i >= 0; i-- )
+         rev = rev + str.charAt(i);
+      if (str.equals(rev))
+         System.out.println("yes");
+      else
+         System.out.println("no");
+ 
+   }
+}
 
-}
-	
-}
