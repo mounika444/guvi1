@@ -13,9 +13,9 @@ class Ideone
 	
 		int suf,vol;
 	
-		Scanner sc=new Scanner(System.in);
-		length=sc.nextInt();
-		height=sc.nextInt();
+		Scanner s=new Scanner(System.in);
+		length=s.nextInt();
+		height=s.nextInt();
 		width=sc.nextInt();
 		suf=2*((length*height)+(height*width)+(width*length));
 		vol=length*height*width;
