@@ -11,9 +11,9 @@ class Ideone
 	{
 		String a;
     int d;
-    Scanner s=new Scanner(System.in);
-    a=s.next();
-    d=s.nextInt();
+    Scanner sc=new Scanner(System.in);
+    a=sc.next();
+    d=sc.nextInt();
     String h=new StringBuffer(a).reverse().toString();
     char f[]=h.toCharArray();
     d=d-1;
