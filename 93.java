@@ -12,7 +12,7 @@ class Ideone
 		int a,b,c;
     Scanner s=new Scanner(System.in);
     a=s.nextInt();
-    double n=a+273.5;
+    int n=a+273;
     System.out.println(n);
 
 	}
