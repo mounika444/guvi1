@@ -11,8 +11,8 @@ class Ideone
 	{
 		 String a;
     int d;
-    Scanner s=new Scanner(System.in);
-    a=s.nextLine();
+    Scanner sc=new Scanner(System.in);
+    a=sc.nextLine();
     String h[]=a.split("\\s+");
     for(int i=0;i<h.length;i++){
         char c=h[i].charAt(0);
